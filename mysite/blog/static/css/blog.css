@@ -1,3 +1,6 @@
+body {
+    background-color: #99cfff;
+}
 .page-header {
     background-color: #f5e042   ;
     margin-top: 0;
@@ -39,11 +42,12 @@ h1, h2, h3, h4 {
 }
 
 .post {
+    background-color: #f0f0ff;
     margin-bottom: 30px;
     border-radius: 25px;
-    border: 2px solid #73AD21;
+    border: 3px solid #73AD21;
     padding: 20px;
-    width: 50%;
+    width: auto;
     height: auto;
 }
 
