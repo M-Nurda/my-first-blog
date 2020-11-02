@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig',
 
+
 ]
 
 MIDDLEWARE = [
@@ -123,5 +124,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'/static/'),
     os.path.join(BASE_DIR, '/upload/'),
-
 ]
