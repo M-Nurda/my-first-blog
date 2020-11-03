@@ -122,5 +122,4 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'blog/static/css/'),
-    os.path.join(BASE_DIR, 'upload'),
 ]
