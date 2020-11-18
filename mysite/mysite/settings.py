@@ -123,6 +123,6 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, '/static/'),
 ]
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-
+# STATIC_ROOT = os.path.join(BASE_DIR, '/static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'sitestatic')
 ###FUCK PYTHON ANYWHERE
